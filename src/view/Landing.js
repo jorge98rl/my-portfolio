@@ -1,10 +1,14 @@
 import React from 'react'
+import Hero from '../components/Hero/Hero';
+import Header from '../components/Header/Header';
+import About from '../components/About/About';
 
 const Landing = () => {
     return (
-        <div className='d-flex flex-column justify-content-center align-items-center vh-100'>
-            <h1>Estamos probando!</h1>
-             <p>Si ves cosas raras no te rayes, estamos en proceso de hacer la web más potente</p>
+        <div className='d-flex flex-column  align-items-center' style={{background: '#14131b', height: '100%'}}>
+            <Header/>
+            <Hero />
+            <About />
         </div>
     )
 }

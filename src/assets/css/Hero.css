@@ -1,0 +1,37 @@
+@media (max-width: 768px) {
+    .hero-container {
+        display: flex;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: flex-start !important;
+        text-align: center !important;
+        
+    }
+
+    h1 {
+        text-align: center !important;
+        margin-right: 0 !important;
+        
+    }
+
+    .title-h1 {
+        margin-left: 0 !important;
+        margin-top: 30px !important;
+    }
+}
+
+.bg-shadow:hover {
+    box-shadow: 0 0 20px 4px #e736b5ff;
+}
+
+.bg-shadow {
+    transition: 1000ms;
+}
+
+.table-hover:hover {
+    border: 2px solid #fbd9ad;
+    border-bottom : none;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+

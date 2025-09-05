@@ -8,8 +8,8 @@ import { RiContactsBook2Line } from "react-icons/ri";
 const Header = () => {
     return (
         <nav
-            className="navbar navbar-expand-md fixed-top p-4 "
-            style={{ background: '#14131b' }}
+            className="navbar navbar-expand-md sticky-top p-4 bg-transparent mb-5"
+            
         >
             <div className="container-fluid d-flex justify-content-center align-items-center gap-5">
                 {/* Brand */}
