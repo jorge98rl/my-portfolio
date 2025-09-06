@@ -5,10 +5,11 @@ import { NavLink } from 'react-router-dom';
 import { MdPerson } from "react-icons/md";
 import { GrProjects } from "react-icons/gr";
 import { RiContactsBook2Line } from "react-icons/ri";
+import { HashLink as NavHashLink } from 'react-router-hash-link';
 const Header = () => {
     return (
         <nav
-            className="navbar navbar-expand-md sticky-top p-4 bg-transparent mb-5"
+            className="navbar navbar-expand-md sticky-top p-4 mb-5 w-100" style={{background: "#14131b"}}
             
         >
             <div className="container-fluid d-flex justify-content-center align-items-center gap-5">
@@ -56,28 +57,28 @@ const Header = () => {
                                 width: "25px",
                                 height: "25px"
                             }} />
-                            <NavLink to="/" className="nav-item" style={{ color: '#fbd9ad', textDecoration: 'none' }}>Home</NavLink>
+                            <NavHashLink to="#Home" className="nav-item" style={{ color: '#fbd9ad', textDecoration: 'none' }}>Home</NavHashLink>
                         </div>
                         <div className='d-flex flex-column justify-content-center align-items-center'>
                             <MdPerson style={{
                                 width: "25px",
                                 height: "25px"
                             }} />
-                            <NavLink to="/" className="nav-item" style={{ color: '#fbd9ad', textDecoration: 'none' }}>About</NavLink>
+                            <NavHashLink to="#About" className="nav-item" style={{ color: '#fbd9ad', textDecoration: 'none' }}>About</NavHashLink>
                         </div>
                         <div className='d-flex flex-column justify-content-center align-items-center'>
                             <GrProjects style={{
                                 width: "25px",
                                 height: "25px"
                             }} />
-                            <NavLink to="/" className="nav-item" style={{ color: '#fbd9ad', textDecoration: 'none' }}>Projects</NavLink>
+                            <NavHashLink to="/" className="nav-item" style={{ color: '#fbd9ad', textDecoration: 'none' }}>Projects</NavHashLink>
                         </div>
                         <div className='d-flex flex-column justify-content-center align-items-center'>
                             <RiContactsBook2Line style={{
                                 width: "25px",
                                 height: "25px"
                             }} />
-                            <NavLink to="/" className="nav-item" style={{ color: '#fbd9ad', textDecoration: 'none' }}>Contact</NavLink>
+                            <NavHashLink to="/" className="nav-item" style={{ color: '#fbd9ad', textDecoration: 'none' }}>Contact</NavHashLink>
                         </div>
                     </ul>
                 </div>

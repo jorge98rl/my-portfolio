@@ -8,7 +8,7 @@ import { FaGithub } from "react-icons/fa6";
 import { FaTiktok } from "react-icons/fa";
 const Hero = () => {
     return (
-        <div className='container-fluid d-flex g-4 vh-100 align-items-center hero-container' style={{ justifyContent: 'center' }}>
+        <div className='container-fluid d-flex g-4 vh-100 align-items-center hero-container'  style={{ justifyContent: 'center' }}>
             <div className='hero-container'>
                 <h1 style={{ fontSize: '5vw', marginRight: '60px', color: '#496e98' }}>Hi there!</h1>
                 <h1 style={{ fontSize: '5vw', marginRight: '60px', color: '#496e98' }}>I'm <span style={{ color: "#e736b5ff" }}>Jorge Rodríguez Luiz</span></h1>

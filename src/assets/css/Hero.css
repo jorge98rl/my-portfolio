@@ -5,18 +5,33 @@
         align-items: center !important;
         justify-content: flex-start !important;
         text-align: center !important;
-        
+
     }
 
     h1 {
         text-align: center !important;
         margin-right: 0 !important;
-        
+
     }
 
     .title-h1 {
         margin-left: 0 !important;
         margin-top: 30px !important;
+    }
+
+    p {
+        font-size: 2.3vw !important;
+    }
+
+    .about-container {
+        width: 100% !important;
+        margin-top: 0px !important;
+    }
+
+    .table-hover {
+        margin-top: 10px !important;
+        font-size: 3vw !important;
+
     }
 }
 
@@ -29,9 +44,24 @@
 }
 
 .table-hover:hover {
-    border: 2px solid #fbd9ad;
-    border-bottom : none;
+    border: 1px solid #fbd9ad;
+    border-bottom: none;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    cursor: pointer;
+}
+
+.visited-link.activo {
+    background-color: #fbd9ad;
+    color: #e736b5;
+    /* opcional: contraste con el fondo */
+    border-bottom: none;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
 
+.visited-link {
+    transition: background 0.3s ease;
+    text-align: center;
+    cursor: pointer;
+}
